@@ -1,27 +1,28 @@
 $green: #82ca9c;
 
 // common css start
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
-.title{
-    font-weight: light;
+.title {
+    font-weight: 300;
     font-size: 60px;
 }
 
-.title2{
-    font-weight: light;
+.title2 {
+    font-weight: 300;
     font-size: 35px;
+    color: #222626;
 }
 
-.title3{
-    font-weight: light;
+.title3 {
+    font-weight: 300;
     font-size: 30px;
 }
 
-.go{
+.go {
     font-weight: bold;
 }
 
@@ -31,33 +32,84 @@ body{
 
 
 // <!-- banner start -->
-.banner{}
+.banner {
+    position: relative;
+    padding-top: 55px;
+    padding-bottom: 380px;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    .banner-left {
+        color: #ffffff;
+
+        img {
+            margin-bottom: 170px;
+        }
+
+        h1 {
+            margin-bottom: 21px;
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 24px;
+        }
+    }
+
+    .banner-right {
+        position: absolute;
+        top: 90px;
+    }
+}
+
 // <!-- banner end -->
 
 // <!-- new start -->
-.new{}
+.new {
+    padding-top: 115px;
+    padding-bottom: 80px;
+
+    p {
+        margin-top: 35px;
+        line-height: 24px;
+        color: #959595;
+    }
+
+    .margin-top{
+        margin-top: 200px;
+    }
+}
+
 // <!-- new end -->
 
 // <!-- services start -->
-.services{}
+.services {}
+
 // <!-- services end -->
 
 // <!-- details start -->
-.details{}
+.details {}
+
 // <!-- details end -->
 
 // <!-- power start -->
-.power{}
+.power {}
+
 // <!-- power end -->
 
 // <!-- reasons start -->
-.reasons{}
+.reasons {}
+
 // <!-- reasons end -->
 
 // <!-- plan start -->
-.plan{}
+.plan {}
+
 // <!-- plan end -->
 
 // footer start
-footer{}
+footer {}
+
 // footer end
