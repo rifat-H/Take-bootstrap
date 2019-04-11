@@ -13,7 +13,6 @@ create common class
 get pattern
 get sizes
 devide all section
-trim images
 get fontawesome icons
 get fonts
 
@@ -25,4 +24,7 @@ fonts
 
 icons
 ==============
-
+<i class="far fa-heart"></i>
+<i class="fas fa-arrow-right"></i>
+<i class="fab fa-windows"></i>
+<i class="fab fa-apple"></i>
