@@ -220,7 +220,30 @@ body {
 // <!-- power end -->
 
 // <!-- reasons start -->
-.reasons {}
+.reasons {
+    padding-top: 125px;
+    padding-bottom: 150px;
+    background-color: $green;
+    color: #fff;
+
+    h1 {
+        margin-bottom: 70px;
+        color: #fff;
+    }
+
+    h6 {
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+    }
+}
 
 // <!-- reasons end -->
 
