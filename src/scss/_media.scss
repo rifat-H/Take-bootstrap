@@ -16,6 +16,18 @@
 
     // common class end
 
+    // <!-- details start -->
+    .details {
+        text-align: center;
+
+        h6{
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+    }
+
+    // <!-- details end -->
+
 
     // <!-- services start -->
     .services {
@@ -42,6 +54,18 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+        // <!-- details start -->
+        .details {
+            text-align: center;
+    
+            h6{
+                margin-top: 40px;
+                margin-bottom: 10px;
+            }
+        }
+    
+        // <!-- details end -->
 
 
     // banner start
