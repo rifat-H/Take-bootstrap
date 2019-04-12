@@ -256,10 +256,11 @@ body {
         padding: 46px 53px;
         transition: .3s;
 
-        &:hover{
+        &:hover {
             background-color: #fff;
             box-shadow: 0 1px 13px 0px #ddd;
-            span{
+
+            span {
                 background-color: #bd8cbf;
             }
         }
@@ -313,6 +314,36 @@ body {
 // <!-- plan end -->
 
 // footer start
-footer {}
+footer {
+    padding-top: 50px;
+    padding-bottom: 155px;
+    background-color: #192431;
+    color: #fff;
+
+
+    h6 {
+        font-size: 13px;
+        line-height: 24px;
+        color: #f6f7fa;
+        font-weight: 600;
+        margin-bottom: 28px;
+        margin-top: 75px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 24px;
+        color: #f6f7fa;
+    }
+
+    ul{
+        li{
+            margin-top: 14px;
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
 
 // footer end
