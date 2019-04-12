@@ -248,7 +248,67 @@ body {
 // <!-- reasons end -->
 
 // <!-- plan start -->
-.plan {}
+.plan {
+    background-color: #f6f7fa;
+    padding: 130px 0;
+
+    .plan-inner {
+        padding: 46px 53px;
+        transition: .3s;
+
+        &:hover{
+            background-color: #fff;
+            box-shadow: 0 1px 13px 0px #ddd;
+            span{
+                background-color: #bd8cbf;
+            }
+        }
+
+        span {
+            text-transform: uppercase;
+            padding: 8px 16px;
+            border-radius: 5px;
+            background-color: #e1e1e1;
+            font-size: 11px;
+            line-height: 22px;
+            color: #ffffff;
+            font-weight: 800;
+            transition: .3s;
+        }
+
+        h1 {
+            margin: 24px 0;
+            color: #2e3b4e;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 25px;
+            color: #8297a7;
+            margin-bottom: 30px;
+        }
+
+        button {
+            text-transform: uppercase;
+            padding: 18px 30px;
+            border-radius: 3px;
+            background-color: $green;
+            font-size: 13px;
+            letter-spacing: 1px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        ul {
+            margin-top: 18px;
+
+            li {
+                color: #c5c5c5;
+                font-size: 30px;
+            }
+        }
+    }
+}
 
 // <!-- plan end -->
 
