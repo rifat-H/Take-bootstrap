@@ -20,6 +20,7 @@ body {
 .title3 {
     font-weight: 300;
     font-size: 30px;
+    color: #ffffff;
 }
 
 .go {
@@ -77,7 +78,7 @@ body {
         color: #959595;
     }
 
-    .margin-top{
+    .margin-top {
         margin-top: 200px;
     }
 }
@@ -85,7 +86,76 @@ body {
 // <!-- new end -->
 
 // <!-- services start -->
-.services {}
+.services {
+
+    .heart {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    .service-1,
+    .service-2,
+    .service-3,
+    .service-4,
+    .service-5 {
+        color: #ffffff;
+        padding: 50px 35px 50px 42px;
+        height: 100%;
+
+        h1 {}
+
+        p {
+            margin-top: 32px;
+            margin-bottom: 40px;
+            line-height: 24px;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+
+            svg {
+                margin-left: 10px;
+            }
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+
+    .service-1 {
+        background-color: #f5989d;
+    }
+
+    .service-2 {
+        background-color: #615f7d;
+    }
+
+    .service-3 {
+        background-image: url(../images/clientBg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .service-4 {
+        background-image: url(../images/signUpBg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .service-5 {
+        background-color: #82ca9c;
+    }
+}
 
 // <!-- services end -->
 
