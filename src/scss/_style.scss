@@ -336,14 +336,34 @@ footer {
         color: #f6f7fa;
     }
 
-    ul{
-        li{
+    ul {
+        li {
             margin-top: 14px;
-            a{
+
+            a {
                 color: #fff;
             }
         }
     }
+
+    input {
+        border: none !important;
+        padding: 23px 0 !important;
+    }
+
+    button {
+        border: none !important;
+        background-color: #82ca9c !important;
+        color: #fff !important;
+        padding: 0px 21px !important;
+    }
+
+    span {
+        font-size: 12px;
+        line-height: 18px;
+        color: #57697f;
+    }
 }
+
 
 // footer end
