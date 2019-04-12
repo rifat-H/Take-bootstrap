@@ -87,6 +87,7 @@ body {
 
 // <!-- services start -->
 .services {
+    padding-bottom: 98px;
 
     .heart {
         display: flex;
@@ -160,7 +161,28 @@ body {
 // <!-- services end -->
 
 // <!-- details start -->
-.details {}
+.details {
+    padding-bottom: 160px;
+
+    h1 {
+        margin-bottom: 70px;
+    }
+
+    h6 {
+        font-size: 13px;
+        line-height: 24px;
+        color: #67676d;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #959595;
+        text-align: justify;
+    }
+}
 
 // <!-- details end -->
 

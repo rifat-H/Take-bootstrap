@@ -17,6 +17,14 @@
     // common class end
 
 
+    // <!-- services start -->
+    .services {
+        text-align: center;
+    }
+
+    // <!-- services end -->
+
+
 
     // <!-- new start -->
     .new {
@@ -64,8 +72,9 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-      // banner start
-      .banner {
+
+    // banner start
+    .banner {
         .banner-right {
             top: 430px;
         }
@@ -77,6 +86,7 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     // banner start
     .banner {
         .banner-right {
